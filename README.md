@@ -15,7 +15,7 @@ The `print` class includes the following static methods:
 - `b(boolean b_boolean)`: Prints a boolean value.
 
 ## Usage
-To use this class, simply call the desired method and pass the appropriate value.
+To use this class<br> First create or directory for save java program's
 
 ### Example
 
