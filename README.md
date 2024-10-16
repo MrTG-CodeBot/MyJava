@@ -31,3 +31,16 @@ public class Main {
         print.b(true); // Prints: true
     }
 }
+```
+
+### Example 2
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        print.s("Hello World"); 
+        print.i(123);
+       //output: Hello World 123
+    }
+}
+```
