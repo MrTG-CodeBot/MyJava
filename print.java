@@ -1,4 +1,3 @@
-
 class print {
     public static void i(int i_ids) {
         System.out.print(i_ids);
