@@ -1,4 +1,4 @@
-# Input-Print Utility Classes
+# Input & Print Utility Classes
 
 ## Overview
 This Java project provides utility classes for user input and printing various data types to the console. The `input` class includes methods for capturing user input of different types, while the `print` class provides methods for printing various data types.
