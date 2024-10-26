@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"   rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/212f003c30.js" crossorigin="anonymous"></script>   
+
+      <title>MyJava Documentation</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            transition: background-color 0.5s, color 0.5s; 
+            background-color: #333;
+            color: #fff;
+        }
+        .light-mode {
+            background-color: #fff;
+            color: #000;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        pre {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        button {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s; /* Animation for button */
+        }
+        .light-mode button {
+            background-color: #000;
+            color: #fff;
+        }
+        .dark-mode button {
+            background-color: #fff;
+            color: #000;
+        }
+        .rose{position: center;
+            position: sticky;
+place-items: center;
+top: 40%;
+}.fa-brands { 
+  font-size: 3em;
+  text-decoration: none;
+  color: #ffffff;
+  place-items: left;
+
+}
+.fa-brands:hover {
+  opacity: 1;
+  text-shadow: 0 0 20px #0d13ca,0 0 30px #4d01ff ,0 0 50px #0101ff;
+}
+.rose{
+    size: 1.5em;
+    top: 90%;
+    margin-left: 20%;
+  }
+    </style>
+</head>
+<body>
+    <button id="mode-toggle"></button>
+
+    <h1>MyJava Documentation</h1>
+    <br>
+    <h2>IMPORTANT: Compilation and Execution</h2>
+    <p>Note: First, compile the print.java file before compiling and running the other files to avoid any errors.</p>
+
+    <br>
+    <h3>Purpose</h3>
+    <p>This Java project provides utility classes for user input and printing various data types to the console. The input class includes methods for capturing user input of different types, while the print class provides methods for printing various data types.</p>
+    <br>
+
+    <h2>Syntax of printing</h2>
+    <details><summary>click me</summary>
+    <pre><code>
+    print.s("Hello world") //printing the string
+    print.i(4) //printing the int
+    print.f(4.0) //printing the float
+    print.d(44.0) //printing the double
+    print.c('f') //printing the char
+    print.b("true") //printing the boolean
+    print.l(4443.0) //printing the long
+    </code></pre>
+    </details>
+    <br>
+    <h2>Syntax of input the value from user</h2>
+    <details><summary>click me</summary>
+        <p>You don't need to import Scanner class, but you must be compile the print.java & input.java</p>
+        <pre><code>
+        int number = input.i("Enter an integer: ");
+        print.i(number); // Prints: entered integer
+
+        String text = input.s("Enter a string: ");
+        print.s(text); // Prints: entered string
+
+        float decimal = input.f("Enter a float: ");
+        print.f(decimal); // Prints: entered float
+
+        double bigDecimal = input.d("Enter a double: ");
+        print.d(bigDecimal); // Prints: entered double
+
+        long largeNumber = input.l("Enter a long: ");
+        print.l(largeNumber); // Prints: entered long
+
+        char character = input.c("Enter a char: ");
+        print.c(character); // Prints: entered char
+
+        boolean truthValue = input.b("Enter a boolean: ");
+        print.b(truthValue); // Prints: entered boolean
+        </code></pre>
+    </details>
+    <br>
+    <br>
+
+    <p>By using these classes and methods, you can write cleaner and more user-friendly Java programs that focus on core functionality while keeping user interaction consistent and efficient.</p>
+
+    <details><summary>contact me</summary>
+    <br>
+    <nav class="rose">
+        <a href="https://www.instagram.com/amal_.nath_?igsh=amhqajY5a2prNXh2" class="fa-brands fa-instagram"></a>
+        <a href="https://t.me/MrTG_Coder" class="fa-brands fa-telegram"></a> 
+        <a href="https://github.com/MrTG-CodeBot" class="fa-brands fa-github"></a>
+    </nav>
+</details>
+
+
+    <script>
+        document.getElementById('mode-toggle').addEventListener('click', function() {
+            var body = document.body;
+            var button = document.getElementById('mode-toggle');
+
+            if (body.classList.contains('light-mode')) {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+                button.innerText = '';
+            } else {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+                button.inner = '';
+            }
+        });
+    </script>
+</body>
+</html>
 
