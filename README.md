@@ -21,7 +21,7 @@ This Java project provides utility classes for user input and printing various d
 **Project Documentation:**
 
 A samll documentation for this project is available in the [Docs](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html) <= [Download](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html). 
-1. Just download it and open file explorer then open the Docs.html file.
+1. Just download it and open file explorer then open the Docs.html file in chrome or Microsoft Edge.
 3. You can view it directly in your browser
 
 ### Example Usage
