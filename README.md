@@ -18,6 +18,10 @@ This Java project provides utility classes for user input and printing various d
     javac input.java
     ```
 
+## General documentation:
+
+Added comprehensive documentation for this project. See the [Docs](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html) for details, then download in your in a.
+
 ### Example Usage
 Here is a sample for how to use it:
 
