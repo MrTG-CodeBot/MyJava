@@ -46,7 +46,5 @@ public class Main {
         print.b(truthValue); // Prints: entered boolean
     }
 }
+```
 
-
-
-This `README.md` file provides a clear overview of your project, usage instructions, and compilation steps. Remember to replace placeholders like `[Your Name]` and `[https://github.com/yourusername]` with your actual details. Happy coding! 🚀📘✨
