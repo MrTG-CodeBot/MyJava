@@ -19,7 +19,7 @@ This Java project provides utility classes for user input and printing various d
     ```
 
 ### Example Usage
-Here is a sample usage of these classes:
+Here is a sample for how to use it:
 
 ```java
 public class Main {
