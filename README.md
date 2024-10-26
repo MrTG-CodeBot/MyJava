@@ -5,7 +5,7 @@ This Java project provides utility classes for user input and printing various d
 
 ## Compilation and Execution
 
-**Note**: First, compile the `print.java` file before compiling and running the other files to avoid any errors.
+**Note**: First, compile the `print.java` file, before compiling the other files to avoid any errors.
 
 ### Compilation Instructions
 1. Navigate to the directory containing the files.
