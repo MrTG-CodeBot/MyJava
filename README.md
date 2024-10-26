@@ -18,9 +18,11 @@ This Java project provides utility classes for user input and printing various d
     javac input.java
     ```
 
-## General documentation:
+**Project Documentation:**
 
-Added comprehensive documentation for this project. See the [Docs](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html) for details, then download in your in a.
+A samll documentation for this project is available in the [Docs](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html) <= [Download](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Docs.html). 
+1. Just download it and open file explorer then open the Docs.html file.
+3. You can view it directly in your browser
 
 ### Example Usage
 Here is a sample for how to use it:
