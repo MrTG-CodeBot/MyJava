@@ -9,7 +9,7 @@ This Java project provides utility classes for user input and printing various d
 
 ### Compilation Instructions
 1. Navigate to the directory containing the files.
-2. Compile the [print.java](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Print.java) file:
+2. Compile the [`print.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Print.java) file:
     ```sh
     javac print.java
     ```
