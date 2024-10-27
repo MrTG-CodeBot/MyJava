@@ -5,11 +5,11 @@ This Java project provides utility classes for user input and printing various d
 
 ## Compilation and Execution
 
-**Note**: First, compile the `print.java` file, before compiling the other files to avoid any errors.
+**Note**: First, compile the [`print.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Print.java) file, before compiling the other files to avoid any errors.
 
 ### Compilation Instructions
 1. Navigate to the directory containing the files.
-2. Compile the `print.java` file:
+2. Compile the [print.java](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Print.java) file:
     ```sh
     javac print.java
     ```
@@ -18,7 +18,7 @@ This Java project provides utility classes for user input and printing various d
     javac input.java
     ```
 
-**Project Documentation:**
+### Project Documentation:
 
 A samll documentation for this project is available in the [Docs](https://raw.githack.com/MrTG-CodeBot/MyJava/main/myJava/Docs.html) 
 1. click the docs then you can see the docs of this project
