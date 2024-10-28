@@ -21,7 +21,7 @@ This Java project provides utility classes for user input and printing various d
 ### Project Documentation:
 
 A samll documentation for this project is available in the [Docs](https://raw.githack.com/MrTG-CodeBot/MyJava/main/myJava/Docs.html) 
-1. click the docs then you can see the docs of this project
+1. click the docs then you can see the document of this project
 
 
 ### Example Usage
