@@ -17,8 +17,7 @@ This Java project provides utility classes for your java project.
     ```sh
     javac input.java
     ```
-
-## Classes and Methods
+<details><summary>## Classes and Methods</summary>
 
 | **Name of Java Class** | **Name of the Methods**                                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -26,6 +25,7 @@ This Java project provides utility classes for your java project.
 | `input`                | `input.i(String question)`, `input.s(String question)`, `input.f(String question)`, `input.d(String question)`, `input.l(String question)`, `input.c(String question)`, `input.b(String question)` |
 | `math`                 | `add(int... numbers)`, `add(float... numbers)`, `add(double... numbers)`, `sub(int... numbers)`, `sub(float... numbers)`, `sub(double... numbers)`, `multi(int... numbers)`, `multi(float... numbers)`, `multi(double... numbers)`, `div(int numerator, int denominator)`, `div(float numerator, float denominator)`, `div(double numerator, double denominator)`, `isEven(int number)`, `isEven(float number)`, `isEven(double number)`, `isOdd(int number)`, `isOdd(float number)`, `isOdd(double number)` |
 
+</details>
 
 
 ## 🌐 contact me:
