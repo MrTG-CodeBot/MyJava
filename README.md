@@ -17,7 +17,7 @@ This Java project provides utility classes for your java project.
     ```sh
     javac input.java
     ```
-<details><summary>## Classes and Methods</summary>
+<details><summary>click me for more information</summary>
 
 | **Name of Java Class** | **Name of the Methods**                                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
