@@ -6,6 +6,11 @@ This Java class provides a set of static methods for performing basic arithmetic
 ## Usage
 To use this class, simply include the `math` class in your Java project and call the static methods as needed.
 
+## Compilation and Execution
+
+**Note**: visit this for the compilation and execution [`click`](https://github.com/MrTG-CodeBot/MyJava/blob/main/README.md#compilation-and-execution) 
+
+
 
 ```java
 public class Main {
