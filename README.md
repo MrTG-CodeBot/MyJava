@@ -19,7 +19,7 @@ This Java project provides utility classes for your java project.
     ```
 <details><summary>click me for more information</summary>
 
-| **Name of Java Class** | **Name of the Methods**                                                                                                                   |
+| **Name of Java Classes** | **Name of the Methods in the java classes**                                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | `print`                | `print.i(int i_ids)`, `print.s(String s_names)`, `print.f(float f_float)`, `print.d(double d_double)`, `print.l(long l_long)`, `print.c(char c_char)`, `print.b(boolean b_boolean)` |
 | `input`                | `input.i(String question)`, `input.s(String question)`, `input.f(String question)`, `input.d(String question)`, `input.l(String question)`, `input.c(String question)`, `input.b(String question)` |
