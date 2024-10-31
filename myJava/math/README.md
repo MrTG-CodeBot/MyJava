@@ -9,7 +9,7 @@ To use this class, simply include the `math` class in your Java project and call
 
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int sum = math.add(1, 2, 3);
         float fsum = math.add(1.0f, 2.0f, 3.0f);
         double dsum = math.add(1.0, 2.0, 3.0);
