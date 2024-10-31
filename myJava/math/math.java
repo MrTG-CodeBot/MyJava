@@ -1,0 +1,195 @@
+public class math {
+
+    // add method in int, float, double. syntax `math.{datatype}add(args)` , example: math.intadd(3,5,6), math.float(4,5,6), math.double(4,5,7)
+
+    public static int add(int... numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
+    }
+
+    public static float add(float... numbers) {
+        float fsum = 0;
+        for (float fnumber : numbers) {
+            fsum += fnumber;
+        }
+        return fsum;
+    }
+
+    public static double add(double... numbers) {
+        double dsum = 0;
+        for (double dnumber : numbers) {
+            dsum += dnumber;
+        }
+        return dsum;
+    }
+
+    //end add
+
+    // sub method have int, float, double. syntax `math.{datatype}sub(args)` , example: math.subadd(5,4,2), math.floatsub(20.0f, 5.0f), math.doublesub(10.5, 3.2, 2.1)
+
+    public static int sub(int... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        int intresult = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            intresult -= numbers[i];
+        }
+        return intresult;
+    }
+
+    public static float sub(float... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        float floatresult = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            floatresult -= numbers[i];
+        }
+        return floatresult;
+    }
+
+    public static double sub(double... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        double doubleresult = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            doubleresult -= numbers[i];
+        }
+        return doubleresult;
+    }
+
+    //end sub
+
+    // multi method have int, float, double. syntax `math.{datatype}multi(args)` , example: math.intmulti(5,4,2), math.floatmulti(20.0f, 5.0f), math.doublemulti(10.5, 3.2, 2.1)
+
+    public static int multi(int... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        int intresult = 1;
+        for (int number : numbers) {
+            intresult *= number;
+        }
+        return intresult;
+    }
+
+    public static float multi(float... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        float floatresult = 1;
+        for (float number : numbers) {
+            floatresult *= number;
+        }
+        return floatresult;
+    }
+
+    public static double multi(double... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("At least one number must be provided.");
+        }
+        double doubleresult = 1;
+        for (double number : numbers) {
+            doubleresult *= number;
+        }
+        return doubleresult;
+    }
+
+    // multi
+
+    // div method have int, float, double. syntax `math.{datatype}div(args)` , example: math.intmulti(5,4,2), math.floatmulti(20.0f, 5.0f), math.doublemulti(10.5, 3.2, 2.1)
+
+
+    public static int div(int numerator, int denominator) {
+        if (denominator == 0) {
+            throw new ArithmeticException("Division by zero is not allowed.");
+        }
+        return numerator / denominator;
+    }
+
+    public static float div(float numerator, float denominator) {
+        if (denominator == 0) {
+            throw new ArithmeticException("Division by zero is not allowed.");
+        }
+        return (float) numerator / denominator;
+    }
+
+    public static double div(double numerator, double denominator) {
+        if (denominator == 0) {
+            throw new ArithmeticException("Division by zero is not allowed.");
+        }
+        return (double) numerator / denominator;
+    }
+
+    /** Checks that the given number is even.
+     *
+     *
+     * @param number datatype: int
+     * @return true if the number is even, false otherwise
+     **/
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
+    /** Checks that the given number is even.
+     *
+     *
+     * @param number datatype: float
+     * @return true if the number is even, false otherwise
+     **/
+
+    public static boolean isEven(float number) {
+        return number % 2 == 0;
+    }
+
+    /** Checks that the given number is even.
+     *
+     *
+     * @param number datatype: double
+     * @return true if the number is even, false otherwise
+     **/
+
+    public static boolean isEven(double number) {
+        return number % 2 == 0;
+    }
+
+    /** Checks that the given number is odd.
+     *
+     *
+     * @param number datatype: int
+     * @return true if the number is odd, false otherwise
+     **/
+
+    public static boolean isOdd(int number) {
+        return number % 2 != 0;
+    }
+
+    /** Checks that the given number is odd.
+     *
+     *
+     * @param number datatype: float
+     * @return true if the number is odd, false otherwise
+     **/
+
+    public static boolean isOdd(float number) {
+        return number % 2 != 0;
+    }
+
+    /** Checks that the given number is odd.
+     *
+     *
+     * @param number datatype: double
+     * @return true if the number is odd, false otherwise
+     **/
+
+    public static boolean isOdd(double number) {
+        return number % 2 != 0;
+    }
+
+}
