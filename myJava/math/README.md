@@ -1,4 +1,4 @@
-# Math Utility Library
+# math Utility Class
 
 ## Overview
 This Java library provides a set of static methods for performing basic arithmetic operations and checking numerical properties such as even or odd.
