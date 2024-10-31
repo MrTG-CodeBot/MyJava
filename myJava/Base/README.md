@@ -25,7 +25,7 @@ Here is a sample for how to use it:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int number = input.i("Enter an integer: ");
         print.i(number); // Prints: entered integer
 
