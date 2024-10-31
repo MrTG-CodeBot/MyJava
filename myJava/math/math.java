@@ -294,4 +294,86 @@ public class math {
         return number % 2 != 0;
     }
 
+        public static boolean isPass(int number, int target_number){
+        if (number >= target_number) {
+            return true;
+        }
+        return false;
+    }
+
+    /** Checks that the student is pass or fail.
+     *
+     *
+     * @param number datatype: float
+     * @param target_number datatype: float
+     * @return true if the number is greater than or equal to target_number, false otherwise
+     **/
+
+    public static boolean isPass(float number, float target_number){
+        if (number >= target_number) {
+            return true;
+        }
+        return false;
+    }
+
+    /** Checks that the student is pass or fail.
+     *
+     *
+     * @param number datatype: double
+     * @param target_number datatype: double
+     * @return true if the number is greater than or equal to target_number, false otherwise
+     **/
+
+    public static boolean isPass(double number, double target_number){
+        if (number >= target_number) {
+            return true;
+        }
+        return false;
+    }
+
+    /** Checks that the student is fail or pass.
+     *
+     *
+     * @param number datatype: int
+     * @param target_number datatype: int
+     * @return false if the number is greater than or equal to target_number, true otherwise
+     **/
+
+    public static boolean isFail(int number, int target_number){
+        if (number >= target_number) {
+            return false;
+        }
+        return true;
+    }
+
+    /** Checks that the student is fail or pass.
+     *
+     *
+     * @param number datatype: float
+     * @param target_number datatype: float
+     * @return false if the number is greater than or equal to target_number, true otherwise
+     **/
+
+    public static boolean isFail(float number, float target_number){
+        if (number >= target_number) {
+            return false;
+        }
+        return true;
+    }
+
+    /** Checks that the student is fail or pass.
+     *
+     *
+     * @param number datatype: double
+     * @param target_number datatype: double
+     * @return false if the number is greater than or equal to target_number, true otherwise
+     **/
+
+    public static boolean isFail(double number, double target_number){
+        if (number >= target_number) {
+            return false;
+        }
+        return true;
+    }
+
 }
