@@ -1,4 +1,4 @@
-public class sample {
+class sample {
     public static void main(String args[]) {
         int sum = math.add(1, 2, 3);
         float fsum = math.add(1.0f, 2.0f, 3.0f);
