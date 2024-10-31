@@ -1,6 +1,12 @@
 public class math {
 
-    // add method in int, float, double. syntax `math.{datatype}add(args)` , example: math.intadd(3,5,6), math.float(4,5,6), math.double(4,5,7)
+    /**
+     * Adds the number of int values.
+     *
+     * @param numbers The numbers to add.
+     *
+     * @return The sum of the numbers.
+     */
 
     public static int add(int... numbers) {
         int sum = 0;
@@ -10,6 +16,14 @@ public class math {
         return sum;
     }
 
+    /**
+     * Adds the number of float values.
+     *
+     * @param numbers The numbers to add.
+     *
+     * @return The sum of the numbers.
+     */
+
     public static float add(float... numbers) {
         float fsum = 0;
         for (float fnumber : numbers) {
@@ -17,6 +31,14 @@ public class math {
         }
         return fsum;
     }
+
+    /**
+     * Adds the number of double values.
+     *
+     * @param numbers The numbers to add.
+     *
+     * @return The sum of the numbers.
+     */
 
     public static double add(double... numbers) {
         double dsum = 0;
@@ -26,9 +48,15 @@ public class math {
         return dsum;
     }
 
-    //end add
-
-    // sub method have int, float, double. syntax `math.{datatype}sub(args)` , example: math.subadd(5,4,2), math.floatsub(20.0f, 5.0f), math.doublesub(10.5, 3.2, 2.1)
+    /**
+     * Subtracts the number of int values.
+     *
+     * @param numbers The numbers to subtract.
+     *
+     * @return The result of the subtraction.
+     *
+     * @throws IllegalArgumentException If no numbers are provided.
+     */
 
     public static int sub(int... numbers) {
         if (numbers.length == 0) {
@@ -41,6 +69,16 @@ public class math {
         return intresult;
     }
 
+    /**
+     * Subtracts the number of float values.
+     *
+     * @param numbers The numbers to subtract.
+     *
+     * @return The result of the subtraction.
+     *
+     * @throws IllegalArgumentException If no numbers are provided.
+     */
+
     public static float sub(float... numbers) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("At least one number must be provided.");
@@ -51,6 +89,16 @@ public class math {
         }
         return floatresult;
     }
+
+    /**
+     * Subtracts the number of double values.
+     *
+     * @param numbers The numbers to subtract.
+     *
+     * @return The result of the subtraction.
+     *
+     * @throws IllegalArgumentException If no numbers are provided.
+     */
 
     public static double sub(double... numbers) {
         if (numbers.length == 0) {
@@ -63,9 +111,15 @@ public class math {
         return doubleresult;
     }
 
-    //end sub
-
-    // multi method have int, float, double. syntax `math.{datatype}multi(args)` , example: math.intmulti(5,4,2), math.floatmulti(20.0f, 5.0f), math.doublemulti(10.5, 3.2, 2.1)
+    /**
+     * Multiples two int values.
+     *
+     * @param numbers The multiply.
+     *
+     * @return The result of the multiplication.
+     *
+     * @throws IllegalArgumentException If args is only one number.
+     */
 
     public static int multi(int... numbers) {
         if (numbers.length == 0) {
@@ -78,6 +132,16 @@ public class math {
         return intresult;
     }
 
+    /**
+     * Multiples two float values.
+     *
+     * @param numbers The multiply.
+     *
+     * @return The result of the multiplication.
+     *
+     * @throws IllegalArgumentException If args is only one number.
+     */
+
     public static float multi(float... numbers) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("At least one number must be provided.");
@@ -88,6 +152,16 @@ public class math {
         }
         return floatresult;
     }
+
+    /**
+     * Multiples two double values.
+     *
+     * @param numbers The multiply.
+     *
+     * @return The result of the multiplication.
+     *
+     * @throws IllegalArgumentException If args is only one number.
+     */
 
     public static double multi(double... numbers) {
         if (numbers.length == 0) {
@@ -100,10 +174,16 @@ public class math {
         return doubleresult;
     }
 
-    // multi
-
-    // div method have int, float, double. syntax `math.{datatype}div(args)` , example: math.intmulti(5,4,2), math.floatmulti(20.0f, 5.0f), math.doublemulti(10.5, 3.2, 2.1)
-
+    /**
+     * Divides two int values.
+     *
+     * @param numerator The dividend.
+     * @param denominator The divisor.
+     *
+     * @return The result of the division.
+     *
+     * @throws ArithmeticException If the denominator is zero.
+     */
 
     public static int div(int numerator, int denominator) {
         if (denominator == 0) {
@@ -112,12 +192,34 @@ public class math {
         return numerator / denominator;
     }
 
+    /**
+     * Divides two float values.
+     *
+     * @param numerator The dividend.
+     * @param denominator The divisor.
+     *
+     * @return The result of the division.
+     *
+     * @throws ArithmeticException If the denominator is zero.
+     */
+
     public static float div(float numerator, float denominator) {
         if (denominator == 0) {
             throw new ArithmeticException("Division by zero is not allowed.");
         }
         return (float) numerator / denominator;
     }
+
+    /**
+     * Divides two double values.
+     *
+     * @param numerator The dividend.
+     * @param denominator The divisor.
+     *
+     * @return The result of the division.
+     *
+     * @throws ArithmeticException If the denominator is zero.
+     */
 
     public static double div(double numerator, double denominator) {
         if (denominator == 0) {
