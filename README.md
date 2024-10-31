@@ -1,4 +1,4 @@
-# Input & Print Utility Classes
+# myJava Utility Classes
 
 ## Overview
 This Java project provides utility classes for your java project.
@@ -22,7 +22,8 @@ This Java project provides utility classes for your java project.
 
 | **Name of Java Class** | **Name of the Methods**                                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| `print`                | `print(int i_ids)`, `print(String s_names)`, `print(float f_float)`, `print(double d_double)`, `print(long l_long)`, `print(char c_char)`, `print(boolean b_boolean)` |
+| `print`                | `print.i(int i_ids)`, `print.s(String s_names)`, `print.f(float f_float)`, `print.d(double d_double)`, `print.l(long l_long)`, `print.c(char c_char)`, `print.b(boolean b_boolean)` |
+| `input`                | `input.i(String question)`, `input.s(String question)`, `input.f(String question)`, `input.d(String question)`, `input.l(String question)`, `input.c(String question)`, `input.b(String question)` |
 | `math`                 | `add(int... numbers)`, `add(float... numbers)`, `add(double... numbers)`, `sub(int... numbers)`, `sub(float... numbers)`, `sub(double... numbers)`, `multi(int... numbers)`, `multi(float... numbers)`, `multi(double... numbers)`, `div(int numerator, int denominator)`, `div(float numerator, float denominator)`, `div(double numerator, double denominator)`, `isEven(int number)`, `isEven(float number)`, `isEven(double number)`, `isOdd(int number)`, `isOdd(float number)`, `isOdd(double number)` |
 
 
