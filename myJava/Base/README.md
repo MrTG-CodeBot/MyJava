@@ -13,7 +13,7 @@ This Java project provides utility classes for user input and printing various d
 Here is a sample for how to use it:
 
 ```java
-public class Main {
+class sample {
     public static void main(String args[]) {
         int number = input.i("Enter an integer: ");
         print.i(number); // Prints: entered integer
