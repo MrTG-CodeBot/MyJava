@@ -64,30 +64,7 @@ This Java project provides utility classes for your java project.
 | `isFail(int number, int target_number)`    | Checks if an integer fails to meet a target value.                       |
 | `isFail(float number, float target_number)`| Checks if a float fails to meet a target value.                         |
 | `isFail(double number, double target_number)`| Checks if a double fails to meet a target value.                     |
-| `pow(int base, int exponent)`| Calculates the power of an integer raised to an exponent.                            |
-| `pow(float base, float exponent)`| Calculates the power of a float raised to an exponent.                         |
-| `pow(double base, double exponent)`| Calculates the power of a double raised to an exponent.                      |
-| `sqrt(double number)`| Calculates the square root of a number.                                                    |
-| `factorial(int number)`| Calculates the factorial of a non-negative integer.                                       |
-| `gcd(int a, int b)`| Calculates the greatest common divisor of two integers.                                       |
-| `lcm(int a, int b)`| Calculates the least common multiple of two integers.                                         |
-| `abs(int number)`| Calculates the absolute value of an integer.                                                   |
-| `abs(float number)`| Calculates the absolute value of a float.                                                     |
-| `abs(double number)`| Calculates the absolute value of a double.                                                   |
-| `max(int a, int b)`| Finds the maximum of two integers.                                                            |
-| `max(float a, float b)`| Finds the maximum of two floats.                                                          |
-| `max(double a, double b)`| Finds the maximum of two doubles.                                                       |
-| `min(int a, int b)`| Finds the minimum of two integers.                                                            |
-| `min(float a, float b)`| Finds the minimum of two floats.                                                          |
-| `min(double a, double b)`| Finds the minimum of two doubles.                                                       |
-| `round(float number)`| Rounds a float to the nearest integer.                                                      |
-| `round(double number)`| Rounds a double to the nearest integer.                                                    |
-| `square(int number)`| Calculates the square of an integer.                                                        |
-| `square(float number)`| Calculates the square of a float.                                                          |
-| `square(double number)`| Calculates the square of a double.                                                        |
-| `cube(int number)`| Calculates the cube of an integer.                                                            |
-| `cube(float number)`| Calculates the cube of a float.                                                              |
-| `cube(double number)`| Calculates the cube of a double.                                                            |
+
 
 </details>
 
