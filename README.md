@@ -17,7 +17,7 @@ This Java project provides utility classes for your java project.
 
 | **Name of Java Classes** | **Name of the Methods in the java classes**                                                                                                                   |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| `io`                   | `io.print()`=> Pass a string args, `io.print()`=> Pass a int args, `io.print()`=> Pass a float args, `io.print()`=> Pass a double args, `io.print()`=> Pass a long args, `io.print()`=> Pass a char args, `io.print()`=> Pass a boolean args |
+| `io`                   | `io.print()` => Print the statement provided as a parameter, `io.input()` => Input the String value & Print the statement provided as a parameter , `io.input` => , `io.input` => , `io.input` => , `io.input` => ,`io.input` => ,`io.input` => ,|
 | `math`                 | `add(int... numbers)`, `add(float... numbers)`, `add(double... numbers)`, `sub(int... numbers)`, `sub(float... numbers)`, `sub(double... numbers)`, `multi(int... numbers)`, `multi(float... numbers)`, `multi(double... numbers)`, `div(int numerator, int denominator)`, `div(float numerator, float denominator)`, `div(double numerator, double denominator)`, `isEven(int number)`, `isEven(float number)`, `isEven(double number)`, `isOdd(int number)`, `isOdd(float number)`, `isOdd(double number)` |
 
 </details>
