@@ -13,7 +13,7 @@ To use this class, simply include the `math` class in your Java project and call
 
 
 ```java
-class sample {
+class mathsample {
     public static void main(String args[]) {
         int sum = math.add(1, 2, 3);
         float fsum = math.add(1.0f, 2.0f, 3.0f);
