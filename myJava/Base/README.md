@@ -13,7 +13,7 @@ This Java project provides utility classes for user input and printing various d
 Here is a sample for how to use it:
 
 ```java
-class in {
+class sample {
     public static void main(String[] args) {
         
         //input the String value
