@@ -9,7 +9,7 @@ This Java project provides utility classes for your java project.
 
 ### Compilation Instructions
 1. Navigate to the directory containing your java program files.
-2. Compile the [`print.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Base/io.java) file:
+2. Compile the [`io.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Base/io.java) file:
     ```sh
     javac io.java
     ```
