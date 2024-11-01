@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class input {  
+class input {  
 
     //user input type => int
     public static int i(String inputint) { 
