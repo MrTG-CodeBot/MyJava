@@ -1,4 +1,4 @@
-public class print {
+class print {
 
     //print promot type => int
     public static void i(int i_ids) {
