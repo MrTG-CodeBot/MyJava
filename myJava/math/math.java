@@ -1,4 +1,4 @@
-public class math {
+class math {
 
     /**
      * Adds the number of int values.
