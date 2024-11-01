@@ -1,4 +1,4 @@
-class sample {
+class iosample {
     public static void main(String[] args) {
         
         //input the String value
