@@ -1,31 +1,23 @@
 class sample {
+    public static void main(String[] args) {
+      
+        String name = io.inputS("what is your name: ");
+        io.print(name + "\n");
 
-public static void main(String[] args) {
+        int id = io.inputI("what is your id: ");
+        io.print(id + "\n");
 
-  // input the string 
-  String name = input.s("What is your name: ");
-  print.s("Your name "+name+"\n");
+        double mark = io.inputD("what is your mark: ");
+        io.print(mark + "\n");
 
-  // input the int 
-  int intnum = input.i("Enter the int number: ");
-  print.s("Your int number is "+intnum+"\n");
+        float weight = io.inputF("what is your weight: ");
+        io.print(weight + "\n");
 
-  //input the float
-  float floatnum= input.f("Enter the float number: ");
-  print.s("Your float number is " + floatnum + "\n");
+        char char_enter = io.inputC("what is your character: ");
+        io.print(char_enter + "\n");
 
-  //input the double
-  double doubnum = input.d("Enter the double number: ");
-  print.s("Your double number is " + doubnum + "\n");
+        boolean tr_fa = io.inputB("Are you a boy: ");
+        io.print(tr_fa + "\n");
 
-  //input the char
-  char charname = input.c("Enter the char: ");
-  print.s("Your char is "+ charname + '\n');
-
-  //input the boolean
-  boolean bool = input.b("Enter the boolean: ");
-  print.s("Your ans is "+ bool +"\n");
-
-  //end
-  }
+    }
 }
