@@ -13,29 +13,35 @@ This Java project provides utility classes for user input and printing various d
 Here is a sample for how to use it:
 
 ```java
-class sample {
-    public static void main(String args[]) {
-        int number = input.i("Enter an integer: ");
-        print.i(number); // Prints: entered integer
+class in {
+    public static void main(String[] args) {
+        
+        //input the String value
+        String name = io.inputS("what is your name: ");
+        io.print(name + "\n");
 
-        String text = input.s("Enter a string: ");
-        print.s(text); // Prints: entered string
+        //input the int value
+        int id = io.inputI("what is your id: ");
+        io.print(id + "\n");
 
-        float decimal = input.f("Enter a float: ");
-        print.f(decimal); // Prints: entered float
+        //input the double value
+        double mark = io.inputD("what is your mark: ");
+        io.print(mark + "\n");
 
-        double bigDecimal = input.d("Enter a double: ");
-        print.d(bigDecimal); // Prints: entered double
+        //input the float value
+        float weight = io.inputF("what is your weight: ");
+        io.print(weight + "\n");
 
-        long largeNumber = input.l("Enter a long: ");
-        print.l(largeNumber); // Prints: entered long
+        //input the char value
+        char char_enter = io.inputC("what is your character: ");
+        io.print(char_enter + "\n");
 
-        char character = input.c("Enter a char: ");
-        print.c(character); // Prints: entered char
+        //input the boolean value
+        boolean tr_fa = io.inputB("Are you a boy: ");
+        io.print(tr_fa + "\n");
 
-        boolean truthValue = input.b("Enter a boolean: ");
-        print.b(truthValue); // Prints: entered boolean
     }
 }
+
 ```
 
