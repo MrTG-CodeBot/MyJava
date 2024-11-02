@@ -1,4 +1,4 @@
-# myJava MyMath (v1.0.0)
+# myJava MyMath (v1.0.2)
 
 ## Overview
 This Java project provides utility classes for your java project.
