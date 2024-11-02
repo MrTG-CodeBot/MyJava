@@ -3,6 +3,7 @@
 ## Overview
 This Java project provides utility classes for your java project.
 
+<details><summary>Compilation and Execution</summary>
 ## Compilation and Execution
 # MyJavaPy
 
@@ -10,10 +11,10 @@ MyJavaPy is a Python script that clones a specific GitHub repository, retrieves 
 
 I add a video how to use that code `[click here](https://github.com/MrTG-CodeBot/MyJava/tree/main/assets)`.
 There are two options:
-1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/blob/main/assets/using_command_prompt.mp4)
+1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4)
 2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4)
 
-##OR
+
 
 **Note**: First, compile the [`io.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Base/io.java) file, before compiling the other files to avoid any errors.
 
@@ -23,6 +24,7 @@ There are two options:
     ```sh
     javac io.java
     ```
+</details>
 <details><summary>click me for more information</summary>
 
 ## Classes and Methods
