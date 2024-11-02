@@ -11,7 +11,7 @@ You can compile by using two methods:
 
 METHOD 1: USING PYTHON(Simple method and easy to use)
 
-MyJavaPy is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
+[`MyJavaPy`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJavapy.py) is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
 
 I add a video how to use that code.<br>
 There are two options:<br>
