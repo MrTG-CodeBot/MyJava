@@ -4,8 +4,8 @@
 This Java project provides utility classes for your java project.
 
 <details><summary>Compilation and Execution</summary>
-## Compilation and Execution
-# MyJavaPy
+
+MyJavaPy
 
 MyJavaPy is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
 
