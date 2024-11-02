@@ -5,7 +5,7 @@ This Java project provides utility classes for your java project.
 
 # Compilation and Execution
 
-## Click here to how to compile and execution by using python
+## Compile and Execution of java file by using python 
 
 You can compile by using two methods:
 
