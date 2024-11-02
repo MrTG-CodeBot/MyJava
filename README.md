@@ -4,15 +4,15 @@
 This Java project provides utility classes for your java project.
 
 ###Click here to how to compile and execution by using python
-<br>
+
 Compilation and Execution
-<br>
+
 You can compile by using two methods:
-<br>
+
 METHOD 1: USING PYTHON(Simple method and easy to use)
-<br>
+
 MyJavaPy is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
-<br>
+
 I add a video how to use that code.<br>
 There are two options:<br>
 1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4) <br>
