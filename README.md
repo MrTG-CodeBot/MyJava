@@ -3,16 +3,18 @@
 ## Overview
 This Java project provides utility classes for your java project.
 
-<details><summary>Compilation and Execution</summary>
+<details><summary>Click here to how to compile and execution by using python</summary>
+
+Compilation and Execution
 
 MyJavaPy
 
 MyJavaPy is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
 
-I add a video how to use that code `[click here](https://github.com/MrTG-CodeBot/MyJava/tree/main/assets)`.
-There are two options:
-1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4)
-2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4)
+I add a video how to use that code.<br>
+There are two options:<br>
+1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4)<br>
+2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4)<br>
 
 
 
