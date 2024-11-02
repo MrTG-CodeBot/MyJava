@@ -3,9 +3,9 @@
 ## Overview
 This Java project provides utility classes for your java project.
 
-### Click here to how to compile and execution by using python
+# Compilation and Execution
 
-Compilation and Execution
+## Click here to how to compile and execution by using python
 
 You can compile by using two methods:
 
