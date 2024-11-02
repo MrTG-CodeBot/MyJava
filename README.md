@@ -30,7 +30,7 @@ METHOD 2: NORMAL METHOD(But you may follow the instructions given below)
     ```sh
     javac io.java
     ```
-</details>
+
 <details><summary>click me for more information</summary>
 
 ## Classes and Methods
