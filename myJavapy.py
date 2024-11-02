@@ -20,8 +20,7 @@ class MyJavaPy:
                 os.remove(df_path)
                 print(f"File '{df_path}' deleted successfully.")
             except OSError as error:
-                if error.errno != os.ENOENT:
-                    print(f"Error: {error.strerror}")
+                print(f"Error: {error.strerror}")
 
             file_root = []
             for root, _, filenames in os.walk(dirpath):
