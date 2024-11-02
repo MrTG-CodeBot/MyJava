@@ -5,22 +5,22 @@ This Java project provides utility classes for your java project.
 
 # Compilation and Execution
 
-## Compile and Execution of java file by using python 
+## You can compile by using two methods:
 
-You can compile by using two methods:
+METHOD 1: USING PYTHON (Simple method and easy to use)
 
-METHOD 1: USING PYTHON(Simple method and easy to use)
+### Compile and Execution of java file by using python 
 
 [`MyJavaPy`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJavapy.py) is a Python script that clones a specific GitHub repository, retrieves specified `.java` files, and compiles them to the specific folder.
 
-I add a video how to use that code.<br>
+I added a video how to use the python script.<br>
 There are two options:<br>
-1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4) <br>
-2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4) <br>
+1, Using command prompt to run the python script. [`click to see the video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4) <br>
+2, Using visual studio code or pycharm to run the python script.[`click to see the video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4) <br>
 
                                          OR
 
-METHOD 2: NORMAL METHOD(But you may follow the instructions given below)
+METHOD 2: NORMAL METHOD (But you may follow the instructions given below)
 <br>
 **Note**: First, compile the [`io.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Base/io.java) file, before compiling the other files to avoid any errors.
 <br>
