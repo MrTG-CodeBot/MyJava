@@ -16,7 +16,7 @@ There are two options:<br>
 1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4)<br>
 2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4)<br>
 
-
+                                         OR
 
 **Note**: First, compile the [`io.java`](https://github.com/MrTG-CodeBot/MyJava/blob/main/myJava/Base/io.java) file, before compiling the other files to avoid any errors.
 
