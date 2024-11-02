@@ -3,7 +3,7 @@
 ## Overview
 This Java project provides utility classes for your java project.
 
-<details><summary>Click here to how to compile and execution by using python</summary>
+###Click here to how to compile and execution by using python
 <br>
 Compilation and Execution
 <br>
