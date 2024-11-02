@@ -15,8 +15,8 @@ MyJavaPy is a Python script that clones a specific GitHub repository, retrieves 
 <br>
 I add a video how to use that code.<br>
 There are two options:<br>
-1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4)<br>
-2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4)<br>
+1, Using command prompt to run the python script. [`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_command_prompt.mp4) <br>
+2, Using visual studio code or pycharm to run the python script.[`video`](https://github.com/MrTG-CodeBot/MyJava/raw/refs/heads/main/assets/using_pycharm_or_vs_code.mp4) <br>
 
                                          OR
 
