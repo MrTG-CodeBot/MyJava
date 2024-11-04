@@ -24,29 +24,10 @@ import os
 import subprocess
 
 class MyJavaPy:
-    """
-    This class helps clone a Java repository, remove the .gitignore file,
-    compile specific Java files, and print their locations.
-    """
-
     def __init__(self):
-        """
-        Initializes the class with the default Git repository URL.
-        """
         self.repo_url = "https://github.com/MrTG-CodeBot/myJava_py.git"
 
     def check_dirpath(self, dirpath):
-        """
-        Checks if the provided directory exists and creates it if not.
-        Also clones the Git repository to the specified directory and removes the .gitignore file.
-
-        Args:
-            dirpath (str): The full path to the directory for saving Java files.
-
-        Returns:
-            None
-        """
-
         try:
             if not os.path.exists(dirpath):
                 os.makedirs(dirpath)
@@ -79,13 +60,6 @@ class MyJavaPy:
             print(f"An error occurred: {e}")
 
     def run(self):
-        """
-        Prompts the user for the directory path and calls the check_dirpath function.
-
-        Returns:
-            None
-        """
-
         while True:
             print("Please input the full path to make the new folder for save the Java files and classes (eg: C:\\abc\\Downloads\\new_folder_name).")
             path = input("Enter path: ")
