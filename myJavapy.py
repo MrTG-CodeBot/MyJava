@@ -24,16 +24,33 @@ import os
 import subprocess
 
 class MyJavaPy:
+    """
+    This class helps clone a Java repository, remove the .gitignore file,
+    compile specific Java files, and print their locations.
+    """
+
     def __init__(self):
+        """
+        Initializes the class with the default Git repository URL.
+        """
         self.repo_url = "https://github.com/MrTG-CodeBot/myJava_py.git"
 
     def check_dirpath(self, dirpath):
-        try:
+        """
+        Checks if the provided directory exists and creates it if not.
+        Also clones the Git repository to the specified directory and removes the .gitignore file.
 
+        Args:
+            dirpath (str): The full path to the directory for saving Java files.
+
+        Returns:
+            None
+        """
+
+        try:
             if not os.path.exists(dirpath):
                 os.makedirs(dirpath)
                 print(f"{dirpath} created")
-
 
             subprocess.run(["git", "clone", self.repo_url, dirpath])
 
@@ -54,16 +71,23 @@ class MyJavaPy:
             for file in file_root:
                 subprocess.run(["javac", file])
 
-            for slash in file_root:
-                rm_slash = slash.replace('\\\\', '\\')
-                print(f"Files are saved in this dir: {rm_slash}")
+            for file in file_root:
+                cleaned_path = file.replace("\\\\", "\\")  
+                print(f"Files are saved in this directory: {cleaned_path}")
 
         except Exception as e:
             print(f"An error occurred: {e}")
 
     def run(self):
+        """
+        Prompts the user for the directory path and calls the check_dirpath function.
+
+        Returns:
+            None
+        """
+
         while True:
-            print("Please input the full path to the folder for save the Java files and classes (eg: C:\\abc\\Downloads\\java_prgm).")
+            print("Please input the full path to make the new folder for save the Java files and classes (eg: C:\\abc\\Downloads\\new_folder_name).")
             path = input("Enter path: ")
             self.check_dirpath(path)
             break
