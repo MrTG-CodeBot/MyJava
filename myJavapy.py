@@ -66,8 +66,7 @@ class MyJavaPy:
             path = print("Please input the full path to the folder for save the Java files and classes (eg: C:\\abc\\Downloads\\java_prgm).")
             path = input("Enter path: ")
             self.check_dirpath(path)
-            if os.path.exists(path):
-                break
+            break
 
 if __name__ == "__main__":
     runner = MyJavaPy()
