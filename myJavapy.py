@@ -63,7 +63,7 @@ class MyJavaPy:
 
     def run(self):
         while True:
-            path = print("Please input the full path to the folder for save the Java files and classes (eg: C:\\abc\\Downloads\\java_prgm).")
+            print("Please input the full path to the folder for save the Java files and classes (eg: C:\\abc\\Downloads\\java_prgm).")
             path = input("Enter path: ")
             self.check_dirpath(path)
             break
