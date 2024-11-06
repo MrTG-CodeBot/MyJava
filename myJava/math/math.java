@@ -376,4 +376,18 @@ class math {
         return true;
     }
 
+    /** Calculates the factorial of a given number.
+     *
+     *
+     * @param n The number to calculate the factorial for.
+     * @return The factorial of the number. 
+     **/
+    
+    public static long factorial(int n) {
+        if (n == 0) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+    }
+
 }
