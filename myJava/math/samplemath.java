@@ -61,5 +61,10 @@ class samplemath {
         else{
             io.print("You are passed, congrats\n");
         }
+
+        int num = 5;
+        long result = math.factorial(num);
+        io.print(result);
+        
     }
 }
